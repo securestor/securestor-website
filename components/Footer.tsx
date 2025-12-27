@@ -60,9 +60,15 @@ const Footer: React.FC = () => {
               <li><button onClick={() => setShowPrivacy(true)} className="hover:text-indigo-400 transition-colors">Privacy Policy</button></li>
               <li><a href="#contact" className="hover:text-indigo-400 transition-colors">Contact</a></li>
               <li className="flex gap-4 mt-4">
-                <Github className="h-5 w-5 hover:text-white transition-colors cursor-pointer" />
-                <Twitter className="h-5 w-5 hover:text-white transition-colors cursor-pointer" />
-                <Linkedin className="h-5 w-5 hover:text-white transition-colors cursor-pointer" />
+                <a href="https://github.com/securestor/securestor" target="_blank" rel="noopener noreferrer">
+                  <Github className="h-5 w-5 hover:text-white transition-colors cursor-pointer" />
+                </a>
+                <a href="https://x.com/securestor_io" target="_blank" rel="noopener noreferrer">
+                  <X className="h-5 w-5 hover:text-white transition-colors cursor-pointer" />
+                </a>
+                <a href="https://www.linkedin.com/company/securestor/about/?viewAsMember=true" target="_blank" rel="noopener noreferrer">
+                  <Linkedin className="h-5 w-5 hover:text-white transition-colors cursor-pointer" />
+                </a>
               </li>
             </ul>
           </div>

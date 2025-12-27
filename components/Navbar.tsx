@@ -38,9 +38,6 @@ const Navbar: React.FC = () => {
                   {item.label}
                 </a>
               ))}
-              <a href="#contact" className="bg-indigo-600 hover:bg-indigo-500 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors">
-                Get Started
-              </a>
             </div>
           </div>
           
@@ -68,9 +65,6 @@ const Navbar: React.FC = () => {
                 {item.label}
               </a>
             ))}
-            <a href="#contact" className="text-white bg-indigo-600 block px-3 py-2 rounded-md text-base font-medium mt-4 text-center">
-              Get Started
-            </a>
           </div>
         </div>
       )}

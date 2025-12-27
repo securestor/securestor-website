@@ -26,27 +26,6 @@ const Contact: React.FC = () => {
             <p className="text-slate-400 text-lg mb-8">
               Schedule a demo with our engineering team to see how SecureStor can help you manage artifacts securely and compliantly.
             </p>
-            
-            <div className="space-y-6">
-              <div className="flex items-start gap-4">
-                <div className="bg-indigo-900/50 p-3 rounded-lg">
-                  <Mail className="h-6 w-6 text-indigo-400" />
-                </div>
-                <div>
-                  <h4 className="text-white font-semibold">Email Us</h4>
-                  <p className="text-slate-400">enterprise@securestor.io</p>
-                </div>
-              </div>
-              <div className="flex items-start gap-4">
-                <div className="bg-indigo-900/50 p-3 rounded-lg">
-                  <MapPin className="h-6 w-6 text-indigo-400" />
-                </div>
-                <div>
-                  <h4 className="text-white font-semibold">HQ</h4>
-                  <p className="text-slate-400">San Francisco, CA</p>
-                </div>
-              </div>
-            </div>
           </div>
 
           <div className="bg-slate-950 p-8 rounded-2xl border border-slate-800 shadow-xl relative overflow-hidden">

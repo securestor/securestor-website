@@ -27,12 +27,12 @@ const Hero: React.FC = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <button className="px-8 py-4 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg font-bold text-lg transition-all shadow-lg shadow-indigo-500/20 flex items-center gap-2">
-            Start Free Trial <ArrowRight className="h-5 w-5" />
-          </button>
-          <button className="px-8 py-4 bg-slate-800 hover:bg-slate-700 text-white rounded-lg font-bold text-lg transition-all border border-slate-700">
+          <a href="https://github.com/securestor/securestor" target="_blank" rel="noopener noreferrer" className="px-8 py-4 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg font-bold text-lg transition-all shadow-lg shadow-indigo-500/20 flex items-center gap-2">
+            Start Open Source <ArrowRight className="h-5 w-5" />
+          </a>
+          <a href="https://github.com/securestor/securestor#readme" target="_blank" rel="noopener noreferrer" className="px-8 py-4 bg-slate-800 hover:bg-slate-700 text-white rounded-lg font-bold text-lg transition-all border border-slate-700">
             View Documentation
-          </button>
+          </a>
         </div>
 
         <div className="mt-12 flex justify-center gap-8 text-slate-500 text-sm font-medium">

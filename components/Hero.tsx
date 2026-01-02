@@ -49,6 +49,8 @@ const Hero: React.FC = () => {
            <div className="flex justify-center items-center gap-8 md:gap-12 opacity-50 grayscale transition-all duration-300 hover:grayscale-0 hover:opacity-80">
               <span className="flex items-center gap-2 text-lg font-bold text-slate-300"><ShieldCheck className="h-6 w-6"/> SOC2 Type II</span>
               <span className="text-lg font-bold text-slate-300">ISO 27001</span>
+              <span className="text-lg font-bold text-slate-300">GDPR/HIPAA/CCPA</span>
+              <span className="text-lg font-bold text-slate-300">CRA (EU)</span>
               <span className="text-lg font-bold text-slate-300">OpenSSF</span>
               <span className="text-lg font-bold text-slate-300">CNCF</span>
            </div>

@@ -46,13 +46,13 @@ const Hero: React.FC = () => {
         {/* Social Proof / Trust Signals */}
         <div className="mt-16 pt-8 border-t border-slate-800/50">
            <p className="text-slate-500 text-xs uppercase tracking-widest font-semibold mb-6">Built for security-critical teams</p>
-           <div className="flex justify-center items-center gap-8 md:gap-12 opacity-50 grayscale transition-all duration-300 hover:grayscale-0 hover:opacity-80">
-              <span className="flex items-center gap-2 text-lg font-bold text-slate-300"><ShieldCheck className="h-6 w-6"/> SOC2 Type II</span>
-              <span className="text-lg font-bold text-slate-300">ISO 27001</span>
-              <span className="text-lg font-bold text-slate-300">GDPR/HIPAA/CCPA</span>
-              <span className="text-lg font-bold text-slate-300">CRA (EU)</span>
-              <span className="text-lg font-bold text-slate-300">OpenSSF</span>
-              <span className="text-lg font-bold text-slate-300">CNCF</span>
+           <div className="flex flex-wrap justify-center items-center gap-4 md:gap-6 lg:gap-8 xl:gap-12 opacity-50 grayscale transition-all duration-300 hover:grayscale-0 hover:opacity-80">
+              <span className="flex items-center gap-2 text-base md:text-lg font-bold text-slate-300"><ShieldCheck className="h-5 w-5 md:h-6 md:w-6"/> SOC2 Type II</span>
+              <span className="text-base md:text-lg font-bold text-slate-300">ISO 27001</span>
+              <span className="text-base md:text-lg font-bold text-slate-300">GDPR/HIPAA/CCPA</span>
+              <span className="text-base md:text-lg font-bold text-slate-300">CRA (EU)</span>
+              <span className="text-base md:text-lg font-bold text-slate-300">OpenSSF</span>
+              <span className="text-base md:text-lg font-bold text-slate-300">CNCF</span>
            </div>
         </div>
       </div>

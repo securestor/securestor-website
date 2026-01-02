@@ -10,10 +10,6 @@ const Hero: React.FC = () => {
       <div className="absolute -bottom-8 left-20 w-72 h-72 bg-cyan-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-900 border border-slate-800 text-indigo-400 text-sm font-medium mb-8">
-          <span className="flex h-2 w-2 rounded-full bg-indigo-500 animate-pulse"></span>
-          v2.0 is now available
-        </div>
         
         <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight text-white mb-8">
           Secure Your <br/>
@@ -40,7 +36,7 @@ const Hero: React.FC = () => {
             <CheckCircle2 className="h-4 w-4 text-emerald-500" /> Production Ready
           </div>
           <div className="flex items-center gap-2">
-            <CheckCircle2 className="h-4 w-4 text-emerald-500" /> SOC2 Compliant
+            <CheckCircle2 className="h-4 w-4 text-emerald-500" /> Open Source
           </div>
           <div className="flex items-center gap-2">
             <CheckCircle2 className="h-4 w-4 text-emerald-500" /> 99.99% Uptime

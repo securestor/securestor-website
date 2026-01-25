@@ -81,6 +81,8 @@ const ADDONS = [
 ];
 
 const Pricing: React.FC = () => {
+  return null;
+  /* 
   return (
     <section id="pricing" className="py-24 bg-slate-900 scroll-mt-20 border-t border-slate-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -94,7 +96,7 @@ const Pricing: React.FC = () => {
           </p>
         </div>
 
-        {/* Competitor Comparison Strip */}
+        {/* Competitor Comparison Strip *\/}
         <div className="mb-16 bg-slate-950 rounded-xl border border-slate-800 p-6 max-w-4xl mx-auto hidden md:block">
            <h3 className="text-center text-white font-bold mb-6">Why switch from legacy vendors?</h3>
            <div className="grid grid-cols-3 gap-4 text-sm">
@@ -122,7 +124,7 @@ const Pricing: React.FC = () => {
            </div>
         </div>
 
-        {/* Pricing Cards Grid - Updated to lg:grid-cols-4 to accommodate 4 tiers */}
+        {/* Pricing Cards Grid - Updated to lg:grid-cols-4 to accommodate 4 tiers *\/}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto mb-16">
           {TIERS.map((tier) => (
             <div 
@@ -173,7 +175,7 @@ const Pricing: React.FC = () => {
           ))}
         </div>
 
-        {/* Deployment Models & Add-ons */}
+        {/* Deployment Models & Add-ons *\/}
         <div className="grid md:grid-cols-2 gap-8">
           <div className="bg-slate-950 border border-slate-800 rounded-xl p-8">
              <h3 className="text-white font-bold text-xl mb-6 flex items-center gap-2">
@@ -219,6 +221,7 @@ const Pricing: React.FC = () => {
       </div>
     </section>
   );
+  */
 };
 
 export default Pricing;
